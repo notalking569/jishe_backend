@@ -1,0 +1,29 @@
+{
+  "name": "vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "ali-oss": "^6.15.2",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "jimp": "^1.6.0",
+    "koa": "^3.0.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.0.1",
+    "vue": "^3.5.13",
+    "vue-data-ui": "^2.6.29",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2",
+    "sass": "^1.86.0",
+    "vite": "^4.5.9"
+  }
+}
